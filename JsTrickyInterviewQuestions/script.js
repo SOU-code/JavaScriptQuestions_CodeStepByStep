@@ -105,3 +105,21 @@ because no a created locally just change value
 // }
 // console.log(test());
 // Output:10 (karon hoisting er jonno function foo ta last er define ta hbe jodi first foo define nao thakto tao 10 hoto karon hoisting er jonno)
+
+//Question -7
+// test();
+// function test() {
+//     console.log("sanju");
+// }
+// Output: sanju (because of function hoisting  )
+// var test = function () {
+//     console.log("sanju");
+// }
+// test();
+//Output: sanju (normal case)
+test();
+var test = function () {
+    console.log("sanju");
+}
+// Output: error because test is not a function when executing test() line in this line test=undefined (because of variable hoisting) -> function declaration have hoisting but function expression doesn't have hoisting
+
