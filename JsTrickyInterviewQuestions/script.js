@@ -93,3 +93,15 @@ because no a created locally just change value
 // console.log(c == d);
 // Output: true (karon c ke jei object ta assign kora hoye6e otakei d er modhyeo assign kora hoye6e tai duto same)
 
+//Question -6
+// function test() {
+//     function foo() {
+//         return 100;
+//     }
+//     return foo();
+//     function foo() {
+//         return 10;
+//     }
+// }
+// console.log(test());
+// Output:10 (karon hoisting er jonno function foo ta last er define ta hbe jodi first foo define nao thakto tao 10 hoto karon hoisting er jonno)
