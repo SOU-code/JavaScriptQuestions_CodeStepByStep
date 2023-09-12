@@ -192,3 +192,14 @@ because no a created locally just change value
 // console.log(ans());
 //Output: 10 // Beacuse it remember value of a (closure of hello) ,it's closures
 
+// Question -12
+//How to do that if const a=foo(6),then a(10) returns 16 and similar like a(21) returns 27
+// function foo(a) {
+//     return (b) => {
+//         console.log(a + b);
+//     }
+// }
+// const ans = foo(6);
+// ans(10);
+// ans(21);
+// Because of closure
