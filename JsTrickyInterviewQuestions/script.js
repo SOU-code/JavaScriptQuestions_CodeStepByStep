@@ -152,3 +152,43 @@ because no a created locally just change value
 // Finally
 // rej:Not Done
 
+//Question -10
+// let arr = [15, 7, 3, 9, 43, 115];
+// arr.sort();  //Sort array alphabatically like sort first element by 0,1,2,3..9 ,then second element by 0,1,2,3..9 going one
+// console.log(arr); // [115, 15, 3, 43, 7, 9]
+// actually sort Ascending order
+// arr.sort((a, b) => {
+//     return a - b;
+// });
+// console.log(arr); // [3, 7, 9, 15, 43, 115]
+// arr.sort((a, b) => {
+//     return b-a;
+// });
+// console.log(arr); // [115, 43, 15, 9, 7, 3]
+
+//Question -11
+// function hello() {
+//     var a = 10;
+//     function innerHello() {
+//         return a;
+//     }
+//     return innerHello();
+// }
+// console.log(hello());
+// Output: 10 // innerHello function return a but there are no a in innerHello function then it search on it's parent ,It is called lexical scope
+// function hello() {
+//     var a = 10;
+//     function innerHello() {
+//         return a;
+//     }
+//     return innerHello;
+// }
+// const ans = hello();
+// console.log(ans);
+// Output:
+// ƒ innerHello() {
+//     return a;
+// }
+// console.log(ans());
+//Output: 10 // Beacuse it remember value of a (closure of hello) ,it's closures
+
