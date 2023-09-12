@@ -133,3 +133,22 @@ because no a created locally just change value
 // console.log(true + false) //1
 // console.log(-true+false) //-1
 
+// Question -9
+// const ans = new Promise((resolve, reject)=>{
+//     setTimeout(() => {
+//         reject("Not Done");
+//     }, 5000);
+// })
+// ans
+// .finally(() => {
+//     console.log("Finally");  //Finally executes garantee doesn't effect reject or resolve
+// })
+// .then((data) => {
+//     console.log("resol:",data); //for resolve
+// }, (data) => {
+//     console.log("rej:", data);
+// })
+//Output:
+// Finally
+// rej:Not Done
+
