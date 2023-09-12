@@ -117,9 +117,19 @@ because no a created locally just change value
 // }
 // test();
 //Output: sanju (normal case)
-test();
-var test = function () {
-    console.log("sanju");
-}
+// test();
+// var test = function () {
+//     console.log("sanju");
+// }
 // Output: error because test is not a function when executing test() line in this line test=undefined (because of variable hoisting) -> function declaration have hoisting but function expression doesn't have hoisting
+
+//Question -8
+// console.log(true)
+//Output: true
+// console.log(false)
+//Output: false
+//But doing operation true =1 and false=0
+// console.log(true + true) //2
+// console.log(true + false) //1
+// console.log(-true+false) //-1
 
