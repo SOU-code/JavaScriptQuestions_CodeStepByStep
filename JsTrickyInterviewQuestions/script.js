@@ -27,17 +27,69 @@ number
 /* Output: undefined (return jeta hbe seta sob somoi return er line theke jano start hoi noito js compiler vabe return kichu kora hoini)  */
 
 //Question -3
-console.log(1 + 1);
-/* Output: 2 */
-console.log(1 + "2" + "2");
-/* Output: 122 (karon num+string or string+string concat hoi) */
-console.log(1 + +"2" + "2");
-/* Output: 32 kono string er age + or - dile jodi string number convert hoi(+/- type er jeta age thake string er) */
-console.log(1 + +"2" + +"2");
-/* Output: 5 */
-console.log(1 + -"1" + "2");
-/* Output: 02  */
-console.log("A" - "B" + "2");
-/* Output: NaN2 ("A"-"B"=NaN + "2" ->concat so NaN2) */
-console.log("A" - "B" + 2);
-/* Output: NaN (NaN+2->can't be add with nan with number)  */
+// console.log(1 + 1);
+// /* Output: 2 */
+// console.log(1 + "2" + "2");
+// /* Output: 122 (karon num+string or string+string concat hoi) */
+// console.log(1 + +"2" + "2");
+// /* Output: 32 kono string er age + or - dile jodi string number convert hoi(+/- type er jeta age thake string er) */
+// console.log(1 + +"2" + +"2");
+// /* Output: 5 */
+// console.log(1 + -"1" + "2");
+// /* Output: 02  */
+// console.log("A" - "B" + "2");
+// /* Output: NaN2 ("A"-"B"=NaN + "2" ->concat so NaN2) */
+// console.log("A" - "B" + 2);
+// /* Output: NaN (NaN+2->can't be add with nan with number)  */
+
+//Question -4
+// var a = 0;
+// function b()
+// {
+//     a = 10;
+//     return;
+//     var a = function () { };
+// }
+// b();
+// console.log(a);
+/*
+Output: 0 
+because of var a=0 created a varible globally but in local scope there is also a created and for hoisting a=10 is for local scope only
+*/
+// var a = 0;
+// function b()
+// {
+//     a = 10;
+//     return;
+//     a = function () { };
+// }
+// b();
+// console.log(a);
+/*
+Output: 10 
+because no a created locally just change value 
+// */
+// var a = 0;
+// function b() {
+//   a = 10;
+//   a = function () {};
+// }
+// b();
+// console.log(a);
+// /*
+// Output:
+// ƒ () { }
+// */
+
+//Question -5
+// console.log({} == {});
+// output: false (karon duto akii dekhte hole alada reference allocation a6e same nicher question)
+// var a = {};
+// var b = {};
+// console.log(a == b);
+//Output: false (variable er value same hole akii hoi but object same hole akii hoi na example: a=5,b=5,a==b->true)
+// var c = {};
+// var d = c;
+// console.log(c == d);
+// Output: true (karon c ke jei object ta assign kora hoye6e otakei d er modhyeo assign kora hoye6e tai duto same)
+
