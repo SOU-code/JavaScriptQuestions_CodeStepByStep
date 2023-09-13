@@ -213,3 +213,12 @@ because no a created locally just change value
 // console.log(x++);
 // Output: 0 (post increment ,x become 1 after x++ line)
 
+//Question -15
+// const obj = {
+//     a: "One",
+//     b: "Two",
+//     a: "Three"
+// };
+// console.log(obj);
+// Output: {a:"three",b:"Two"} (because of a reassign value change but position same)
+
