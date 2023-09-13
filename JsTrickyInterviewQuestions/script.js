@@ -208,3 +208,8 @@ because no a created locally just change value
 // console.log(!!10 + 20);
 //Output: 21 (karon !10=false->1 and !!10=!false=true->1 s0,1+20=21)
 
+//Question -14
+// let x = 0;
+// console.log(x++);
+// Output: 0 (post increment ,x become 1 after x++ line)
+
