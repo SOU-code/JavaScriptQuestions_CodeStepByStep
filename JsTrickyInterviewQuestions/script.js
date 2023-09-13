@@ -203,3 +203,8 @@ because no a created locally just change value
 // ans(10);
 // ans(21);
 // Because of closure
+
+// Question -13
+// console.log(!!10 + 20);
+//Output: 21 (karon !10=false->1 and !!10=!false=true->1 s0,1+20=21)
+
