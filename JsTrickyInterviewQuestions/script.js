@@ -222,3 +222,11 @@ because no a created locally just change value
 // console.log(obj);
 // Output: {a:"three",b:"Two"} (because of a reassign value change but position same)
 
+//Question -16
+// function a(...args) {
+//     console.log(args);
+//     console.log(typeof(args));
+// }
+// a(123);
+//Output: [123] & Object (karon rest operator(...) gives us array which are type of object)
+
