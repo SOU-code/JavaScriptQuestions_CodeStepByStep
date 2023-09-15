@@ -230,3 +230,7 @@ because no a created locally just change value
 // a(123);
 //Output: [123] & Object (karon rest operator(...) gives us array which are type of object)
 
+//Question -17
+// console.log(typeof (NaN));
+//Output: number
+
