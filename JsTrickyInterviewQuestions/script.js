@@ -234,3 +234,10 @@ because no a created locally just change value
 // console.log(typeof (NaN));
 //Output: number
 
+//Question -18
+//How to cut array length
+// const data = [4, 3, 5, 2, 7, 0, 8];
+// data.length = 4;
+// console.log(data);
+//Output: [4,3,5,2] (jodi amra data.length=n set kori tobe data value 0->n index porjonto hoi max length of array)
+
