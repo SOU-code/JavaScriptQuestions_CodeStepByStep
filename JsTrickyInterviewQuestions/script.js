@@ -250,3 +250,10 @@ because no a created locally just change value
 // console.log(multi);
 // Output: 30 & 6720 (array1.reduce((accumulator, currentValue) => accumulator * currentValue, initialValue) it is callback function which saves accumulator after every operation for each element and first time accumulator is the innitial value)
 
+//Question -20
+//Remove same elements and make it qnique
+// const data = [1, 2, 4, 5, 2, 5, 1, 4, 7];
+// const unique = new Set(data); // convert into set for making it unique
+// console.log([...unique]); // Make it as array to set by rest operator
+//Output: [1, 2, 4, 5, 7]
+
