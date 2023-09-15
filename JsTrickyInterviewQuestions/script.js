@@ -241,3 +241,12 @@ because no a created locally just change value
 // console.log(data);
 //Output: [4,3,5,2] (jodi amra data.length=n set kori tobe data value 0->n index porjonto hoi max length of array)
 
+//Question -19
+//Sum and multiplication of array items by reduce method
+// const data = [4, 3, 5, 2, 7, 1, 8];
+// const sum = data.reduce((x, y) => x + y,0);
+// console.log(sum);
+// const multi = data.reduce((x, y) => x * y,1);
+// console.log(multi);
+// Output: 30 & 6720 (array1.reduce((accumulator, currentValue) => accumulator * currentValue, initialValue) it is callback function which saves accumulator after every operation for each element and first time accumulator is the innitial value)
+
