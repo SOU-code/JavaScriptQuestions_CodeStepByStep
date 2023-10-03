@@ -264,3 +264,10 @@ because no a created locally just change value
 // console.log(a === b);
 // Output: false flase , because when we comapre arrays the we compare memory location,that is differnt
 
+//Ouestion -22
+// let a = [];
+// let b = a;
+// console.log(a == b);
+// console.log(a === b);
+// Output: true true , because here b is not differnt array we assigned a into b
+
