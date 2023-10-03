@@ -382,3 +382,7 @@ because no a created locally just change value
 // console.log(result);
 // Output: [] because first true value is []
 
+//Question -40
+// console.log(Promise.resolve(5));
+//Output: Promise {<fulfilled>: 5}
+
