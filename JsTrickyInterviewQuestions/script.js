@@ -293,3 +293,7 @@ because no a created locally just change value
 // console.log(data);
 //Output: 20
 
+//Ouestion -27
+// const set = new Set([1, 1, 2, 3, 4]);
+// console.log(set)
+//Output: (1,2,3,4)
