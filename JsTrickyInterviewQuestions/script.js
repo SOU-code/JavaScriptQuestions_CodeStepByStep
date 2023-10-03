@@ -372,3 +372,8 @@ because no a created locally just change value
 // console.log(result);
 // Output: {} becase there use or || operator when is expression get first true value it is set to it's value {} it the first true value
 
+//Question -38
+// const result = null || false || '';
+// console.log(result);
+// Output: '' ->empty string because there use or || operator when is expression get first true value or last false value it is set to it's value '' it the first false value no true value
+
