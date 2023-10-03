@@ -367,3 +367,8 @@ because no a created locally just change value
 // console.log(name());
 //Output: Error name is not a function
 
+//Question -37
+// const result = false || {} || null;
+// console.log(result);
+// Output: {} becase there use or || operator when is expression get first true value it is set to it's value {} it the first true value
+
