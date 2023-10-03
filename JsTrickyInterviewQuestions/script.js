@@ -320,3 +320,13 @@ because no a created locally just change value
 // console.log(p, q, r);
 //Output: sanju / sanju ani / sanju ani pati
 
+//Question -31
+// const data = ["sanju", "ani", "pati"];
+// const [,y] = data;
+// const [,, b] = data;
+// const [, q, r] = data;
+// console.log(y);
+// console.log(b);
+// console.log(q, r);
+//Output: ani /pati /ani pati
+
