@@ -355,3 +355,9 @@ because no a created locally just change value
 // console.log(data);
 //Ouput: {{name: 'Sanju', age: 24}, city: 'burdwan'}
 
+//Question -35
+// let data = { name: "Sanju", age: 24 };
+// let info = { city: "burdwan",age:45 };
+// data = { ...data, ...info };
+// console.log(data);
+//Ouput: {name: 'Sanju', age: 45, city: 'burdwan'}
