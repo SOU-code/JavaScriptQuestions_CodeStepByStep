@@ -297,3 +297,9 @@ because no a created locally just change value
 // const set = new Set([1, 1, 2, 3, 4]);
 // console.log(set)
 //Output: (1,2,3,4)
+
+//Ouestion -28
+// let data = { name: "sanju" };
+// console.log(delete data.name);
+// console.log(data);
+// Output: true {} ,because delete operation performed so return true
