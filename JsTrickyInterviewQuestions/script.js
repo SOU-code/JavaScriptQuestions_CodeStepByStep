@@ -271,3 +271,9 @@ because no a created locally just change value
 // console.log(a === b);
 // Output: true true , because here b is not differnt array we assigned a into b
 
+//Ouestion -23
+// let a = [20];
+// let b = [20];
+// console.log(a[0] == b[0]);
+// console.log(a[0] === b[0]);
+// Output: true true , because here we checking value of element value not any object/array
