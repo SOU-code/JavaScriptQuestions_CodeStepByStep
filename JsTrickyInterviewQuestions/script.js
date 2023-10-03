@@ -303,3 +303,10 @@ because no a created locally just change value
 // console.log(delete data.name);
 // console.log(data);
 // Output: true {} ,because delete operation performed so return true
+
+
+// Ouestion -29
+// let data = { name: "sanju" };
+// console.warn(delete data);
+// Output: false beacuse there was an error on delete object we can delete only by key
+
