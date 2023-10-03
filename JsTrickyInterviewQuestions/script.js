@@ -304,7 +304,6 @@ because no a created locally just change value
 // console.log(data);
 // Output: true {} ,because delete operation performed so return true
 
-
 // Ouestion -29
 // let data = { name: "sanju" };
 // console.warn(delete data);
@@ -329,4 +328,15 @@ because no a created locally just change value
 // console.log(b);
 // console.log(q, r);
 //Output: ani /pati /ani pati
+
+//Question -32
+// How to get object key value without . operator
+// const data = { name: "sanju", age: 24, role: "Web D" };
+// const { age } = data;
+// const { name } = data;
+// const { role } = data;
+// console.log(role);
+// console.log(age);
+// console.log(name);
+// Output: Web D / 24 /sanju
 
