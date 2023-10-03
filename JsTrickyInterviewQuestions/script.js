@@ -279,7 +279,12 @@ because no a created locally just change value
 // Output: true true , because here we checking value of element value not any object/array
 
 //Question -24
-let z = [1, 2, 3, 4];
-let a = { name: "sanju" };
-console.warn(...z);
-// Output: 1 2 3 4 ,beacuse when we used ...before array then array disructured then elements came outside 
+// let z = [1, 2, 3, 4];
+// let a = { name: "sanju" };
+// console.warn(...z);
+// Output: 1 2 3 4 ,beacuse when we used ...before array then array disructured then elements came outside
+
+//Question -25
+// console.log(typeof NaN)
+// Output: number
+
