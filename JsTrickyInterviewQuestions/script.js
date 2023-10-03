@@ -361,3 +361,9 @@ because no a created locally just change value
 // data = { ...data, ...info };
 // console.log(data);
 //Ouput: {name: 'Sanju', age: 45, city: 'burdwan'}
+
+//Question -36
+// const name = "sanju";
+// console.log(name());
+//Output: Error name is not a function
+
