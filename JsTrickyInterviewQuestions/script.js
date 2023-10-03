@@ -310,3 +310,13 @@ because no a created locally just change value
 // console.warn(delete data);
 // Output: false beacuse there was an error on delete object we can delete only by key
 
+//Question -30
+// const data = ["sanju", "ani", "pati"];
+// const [y] = data;
+// const [a, b] = data;
+// const [p, q, r] = data;
+// console.log(y);
+// console.log(a, b);
+// console.log(p, q, r);
+//Output: sanju / sanju ani / sanju ani pati
+
