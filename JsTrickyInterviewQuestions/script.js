@@ -288,3 +288,8 @@ because no a created locally just change value
 // console.log(typeof NaN)
 // Output: number
 
+// Question -26
+// let data = 10 - -10;
+// console.log(data);
+//Output: 20
+
