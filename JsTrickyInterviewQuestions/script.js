@@ -257,3 +257,10 @@ because no a created locally just change value
 // console.log([...unique]); // Make it as array to set by rest operator
 //Output: [1, 2, 4, 5, 7]
 
+//Question -21
+// let a = [];
+// let b = [];
+// console.log(a == b);
+// console.log(a === b);
+// Output: false flase , because when we comapre arrays the we compare memory location,that is differnt
+
