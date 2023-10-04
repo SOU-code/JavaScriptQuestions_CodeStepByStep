@@ -496,8 +496,14 @@ because no a created locally just change value
 //The forEach() method does not returns a new array based on the given array. The map() method returns an entirely new array
 
 //Question -56
-let data = ["anil", "peter", "bruce"];
-delete data[1];
-console.log(data); //['anil', empty, 'bruce']
-console.log(data.length); //3
+// let data = ["anil", "peter", "bruce"];
+// delete data[1];
+// console.log(data); //['anil', empty, 'bruce']
+// console.log(data.length); //3
 
+//Question -57
+// marge two arrays
+let a = [1, 2, 3];
+let b = [4, 5, 6];
+let c = [...a, ...b];
+console.log(c); //Output: [1, 2, 3, 4, 5, 6]
