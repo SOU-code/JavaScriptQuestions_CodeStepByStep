@@ -553,4 +553,8 @@ because no a created locally just change value
 // console.log(b); //output: error b not defined
 
 //Question -67
-console.log([[[[]]]]); //[[[[]]]]
+// console.log([[[[]]]]); //[[[[]]]]
+
+//Question -68
+//How to find OS name
+console.log(navigator.platform);
