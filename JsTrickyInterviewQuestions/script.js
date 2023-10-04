@@ -520,3 +520,9 @@ because no a created locally just change value
 // a = 100;
 //Output: 100
 
+//Question -60
+let a = 2;
+let A = 30;
+console.log(A); //Output: 30
+
+
