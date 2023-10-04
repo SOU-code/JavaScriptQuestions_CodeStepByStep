@@ -408,3 +408,7 @@ because no a created locally just change value
 // getName();
 // Output: souvik
 
+// Question -44
+// console.log(`${(x => x)("I Love")} to program`);
+// Output: I Love to program
+
