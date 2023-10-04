@@ -444,3 +444,12 @@ because no a created locally just change value
 // person.name = "sanju"; //but i can modify
 // console.log(person); //Output:{name: 'sanju'}
 
+//Question -49
+// Delete first Element
+// const a = [2, 0, 9, 8];
+// a.shift();
+// console.log(a); // [0,9,8]
+// add First position
+// a.unshift(89);
+// console.log(a); // [89,0,9,8]
+
