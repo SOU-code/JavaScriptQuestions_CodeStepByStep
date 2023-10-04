@@ -462,3 +462,12 @@ because no a created locally just change value
 // a.push(16);
 // console.log(a); // [2,0,9,16]
 
+//Question -51
+//Check odd or even
+// let a = 31;
+// if (a % 2) {
+//     console.log("Odd");
+// }
+// else {
+//     console.log("Even");
+// }
