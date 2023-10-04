@@ -386,3 +386,7 @@ because no a created locally just change value
 // console.log(Promise.resolve(5));
 //Output: Promise {<fulfilled>: 5}
 
+//Question -41
+// what this method will do
+// JSON.parse();
+// Output: Parse JASON to a Javascript vlue
