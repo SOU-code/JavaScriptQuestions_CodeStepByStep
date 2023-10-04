@@ -392,10 +392,19 @@ because no a created locally just change value
 // Output: Parse JASON to a Javascript vlue
 
 //Question -42
-let name = "souvik";
-function getName() {
-    console.log(name);
-    let name = "sanju";
-}
-getName();
-//Output:can't access name before initatialazation
+// let name = "souvik";
+// function getName() {
+//     console.log(name);
+//     let name = "sanju";
+// }
+// getName();
+//Output:can't access name before initatialazation becasue of hoisting
+
+//Question -43
+// let name = "souvik";
+// function getName() {
+//     console.log(name);
+// }
+// getName();
+// Output: souvik
+
