@@ -561,3 +561,13 @@ because no a created locally just change value
 
 //Question -69
 // let for= 100; //Error: syntax unexpected token error
+
+//Question -70
+// function fruits() {
+//     console.log(name);
+//     console.log(city);
+//     var name = "sanju";
+//     let city = "burdwan";
+// }
+// fruits();
+//Output: undefined /error -> hoisting
