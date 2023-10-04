@@ -473,9 +473,15 @@ because no a created locally just change value
 // }
 
 //Question -52
-let data = {
-    name: "sanju"
-}
-delete data.name;
-console.log(data); //Output: {}
+// let data = {
+//     name: "sanju"
+// }
+// delete data.name;
+// console.log(data); //Output: {}
+
+// Question -53
+// Convert Data to boolean false value
+// let data = "true";
+// console.log(!data);
+// console.log(typeof !data);
 
