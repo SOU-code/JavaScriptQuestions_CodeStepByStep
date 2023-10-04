@@ -495,3 +495,9 @@ because no a created locally just change value
 // Map vs forEach
 //The forEach() method does not returns a new array based on the given array. The map() method returns an entirely new array
 
+//Question -56
+let data = ["anil", "peter", "bruce"];
+delete data[1];
+console.log(data); //['anil', empty, 'bruce']
+console.log(data.length); //3
+
