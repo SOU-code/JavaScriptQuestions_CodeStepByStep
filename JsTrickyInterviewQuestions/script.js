@@ -471,3 +471,11 @@ because no a created locally just change value
 // else {
 //     console.log("Even");
 // }
+
+//Question -52
+let data = {
+    name: "sanju"
+}
+delete data.name;
+console.log(data); //Output: {}
+
