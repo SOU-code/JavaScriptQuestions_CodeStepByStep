@@ -529,3 +529,8 @@ because no a created locally just change value
 // let A10 = 'like';
 // let 10A = 'okey'; //SyntaxError: Unexpected strict mode reserved word
 
+//Question -62
+// let a = "like";
+// let b = `like`;
+// console.log(a === b); //true
+
