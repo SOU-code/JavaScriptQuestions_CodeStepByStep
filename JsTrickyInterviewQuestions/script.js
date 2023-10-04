@@ -503,7 +503,12 @@ because no a created locally just change value
 
 //Question -57
 // marge two arrays
-let a = [1, 2, 3];
-let b = [4, 5, 6];
-let c = [...a, ...b];
-console.log(c); //Output: [1, 2, 3, 4, 5, 6]
+// let a = [1, 2, 3,4];
+// let b = [4, 5, 6];
+// let c = [...a, ...b]; //in array there are same element but in object not same key  present
+// console.log(c); //Output: [1, 2, 3,4, 4, 5, 6]
+
+//Question -58
+// let c = 3 ** 3;
+// console.log(c); //Output: 27
+
