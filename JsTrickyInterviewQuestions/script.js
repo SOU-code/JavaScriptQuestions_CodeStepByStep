@@ -534,3 +534,7 @@ because no a created locally just change value
 // let b = `like`;
 // console.log(a === b); //true
 
+//Question -63
+// let a = 1;
+// let c = 2;
+// console.log(--c === a); //Output: true
