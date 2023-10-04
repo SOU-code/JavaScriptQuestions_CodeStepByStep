@@ -436,3 +436,11 @@ because no a created locally just change value
 // console.log(isNaN(age));
 // Output: true / false -> isNaN check where as it is a not a number or number
 
+//Question -48
+// let person = { name: "anil" };
+// Object.seal(person);
+// // person.age=24; //can't be added after seal ->error
+// // delete person.name; //can't be deleteed after seal->error
+// person.name = "sanju"; //but i can modify
+// console.log(person); //Output:{name: 'sanju'}
+
