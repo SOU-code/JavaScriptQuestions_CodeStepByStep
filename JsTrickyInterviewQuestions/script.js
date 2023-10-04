@@ -485,3 +485,9 @@ because no a created locally just change value
 // console.log(!data);
 // console.log(typeof !data);
 
+//Question -54
+// Convert Data to boolean true value
+// let data = "true";
+// console.log(!!data);
+// console.log(typeof !!data);
+
