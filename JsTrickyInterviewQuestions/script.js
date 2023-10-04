@@ -538,3 +538,9 @@ because no a created locally just change value
 // let a = 1;
 // let c = 2;
 // console.log(--c === a); //Output: true
+
+//Question -64
+// let a = 1;
+// let b = 1;
+// let c = 2;
+// console.log(a === b === --c); //Output: false { true === --c ->true === 1 -> false }
