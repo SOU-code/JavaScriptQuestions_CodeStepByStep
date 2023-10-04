@@ -552,3 +552,5 @@ because no a created locally just change value
 //Question -66
 // console.log(b); //output: error b not defined
 
+//Question -67
+console.log([[[[]]]]); //[[[[]]]]
