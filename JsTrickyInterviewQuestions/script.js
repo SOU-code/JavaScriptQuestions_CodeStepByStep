@@ -422,3 +422,10 @@ because no a created locally just change value
 // C.sumValues(...[1, 2, 3]);
 // D.sumValues([1, 2, 3]);
 // Output: C
+
+//Question -46
+// const name = "sanju";
+// console.log(!typeof name === "object");
+// console.log(!typeof name === 'string');
+// Output: false/false ->left to right->!string=="object"-> false==="object"->false
+
