@@ -429,3 +429,10 @@ because no a created locally just change value
 // console.log(!typeof name === 'string');
 // Output: false/false ->left to right->!string=="object"-> false==="object"->false
 
+// Questionv-47
+// const name = "Sanju";
+// const age = 24;
+// console.log(isNaN(name));
+// console.log(isNaN(age));
+// Output: true / false -> isNaN check where as it is a not a number or number
+
