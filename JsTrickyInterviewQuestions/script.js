@@ -512,3 +512,11 @@ because no a created locally just change value
 // let c = 3 ** 3;
 // console.log(c); //Output: 27
 
+//Question -59
+// let a = 2;
+// setTimeout(() => {
+//     console.log(a);
+// }, 0)
+// a = 100;
+//Output: 100
+
