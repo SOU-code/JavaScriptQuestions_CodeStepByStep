@@ -453,3 +453,12 @@ because no a created locally just change value
 // a.unshift(89);
 // console.log(a); // [89,0,9,8]
 
+//Question -50
+//Delete last element
+// const a = [2, 0, 9, 8];
+// a.pop();
+// console.log(a); // [2,0,9]
+//Add last Index
+// a.push(16);
+// console.log(a); // [2,0,9,16]
+
