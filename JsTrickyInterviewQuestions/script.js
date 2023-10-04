@@ -544,3 +544,11 @@ because no a created locally just change value
 // let b = 1;
 // let c = 2;
 // console.log(a === b === --c); //Output: false { true === --c ->true === 1 -> false }
+
+//Question -65
+// console.log(a);
+// var a; //Output: undefined (because of hoisting)
+
+//Question -66
+// console.log(b); //output: error b not defined
+
