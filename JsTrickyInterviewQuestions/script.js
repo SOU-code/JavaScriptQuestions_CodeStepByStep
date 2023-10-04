@@ -557,4 +557,7 @@ because no a created locally just change value
 
 //Question -68
 //How to find OS name
-console.log(navigator.platform);
+// console.log(navigator.platform);
+
+//Question -69
+// let for= 100; //Error: syntax unexpected token error
