@@ -412,3 +412,13 @@ because no a created locally just change value
 // console.log(`${(x => x)("I Love")} to program`);
 // Output: I Love to program
 
+// Question -45
+// How output should be 6
+// function sumValues(x, y, z) {
+//   console.log(x + y + z);
+// }
+// A.sumValues([...1, 2, 3]);
+// B.sumValues([...[1, 2, 3]]);
+// C.sumValues(...[1, 2, 3]);
+// D.sumValues([1, 2, 3]);
+// Output: C
