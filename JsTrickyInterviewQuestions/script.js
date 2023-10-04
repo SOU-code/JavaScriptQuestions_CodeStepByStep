@@ -521,8 +521,11 @@ because no a created locally just change value
 //Output: 100
 
 //Question -60
-let a = 2;
-let A = 30;
-console.log(A); //Output: 30
+// let a = 2;
+// let A = 30;
+// console.log(A); //Output: 30
 
+//Question -61
+// let A10 = 'like';
+// let 10A = 'okey'; //SyntaxError: Unexpected strict mode reserved word
 
