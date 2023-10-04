@@ -491,3 +491,7 @@ because no a created locally just change value
 // console.log(!!data);
 // console.log(typeof !!data);
 
+//Question -55
+// Map vs forEach
+//The forEach() method does not returns a new array based on the given array. The map() method returns an entirely new array
+
