@@ -653,3 +653,11 @@ because no a created locally just change value
 //     console.log(typeof args)
 // }
 // getAge(21);
+
+// Question -83
+// function getAge() {
+//     'use strict';
+//     age = 24;
+//     console.log(age);
+// }
+// getAge(); //age is not defined
