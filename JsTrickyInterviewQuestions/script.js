@@ -642,3 +642,9 @@ because no a created locally just change value
 // }
 // sum(1, "2"); //Output: 12
 
+//Question -81
+// let number = 0;
+// console.log(number++); //0
+// console.log(++number); //2
+// console.log(number); //2
+
