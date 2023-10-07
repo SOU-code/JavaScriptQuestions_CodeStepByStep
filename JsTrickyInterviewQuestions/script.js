@@ -629,3 +629,10 @@ because no a created locally just change value
 // console.log(a, typeof a); //3,number
 // console.log(b, typeof b); //Number{3} ,object
 
+//Question -79
+// function abc() {
+//     console.log("fruit");
+// }
+// abc.rr = "yoo"; //doesn't change nothing
+// abc(); //fruit
+
