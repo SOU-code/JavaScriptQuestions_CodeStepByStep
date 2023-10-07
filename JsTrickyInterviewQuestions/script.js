@@ -661,3 +661,13 @@ because no a created locally just change value
 //     console.log(age);
 // }
 // getAge(); //age is not defined
+
+//Question -84
+// console.log("2+4*3/45"); // 2+4*3/45
+// const sum = eval("2+(4*3)/45");
+// console.log(sum); //2.2666666666
+
+//Question -85
+//sessionStorage vs localStorage
+// sessionStorage is similar to localStorage ; the difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends.
+
