@@ -636,3 +636,9 @@ because no a created locally just change value
 // abc.rr = "yoo"; //doesn't change nothing
 // abc(); //fruit
 
+//Question -80
+// function sum(a, b) {
+//     console.log(a + b);
+// }
+// sum(1, "2"); //Output: 12
+
