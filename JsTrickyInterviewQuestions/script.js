@@ -608,3 +608,9 @@ because no a created locally just change value
 // console.log(tree["abc"]); //sanju
 // console.log(tree.abc); //sanju
 
+//Question -76
+// let c = { name: "peter" };
+// let d;
+// d = c;
+// c.name = "anil";
+// console.log(d.name); //anil 
