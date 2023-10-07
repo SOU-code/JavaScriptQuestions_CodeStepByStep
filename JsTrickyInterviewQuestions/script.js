@@ -594,3 +594,7 @@ because no a created locally just change value
 // console.log(+"33"); //22
 // console.log(+"df45"); //NaN
 
+//Question -74
+// console.log(!"anil"); //false
+// console.log(typeof ("anil")); //string
+
