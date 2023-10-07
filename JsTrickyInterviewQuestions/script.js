@@ -598,3 +598,13 @@ because no a created locally just change value
 // console.log(!"anil"); //false
 // console.log(typeof ("anil")); //string
 
+//Question -75
+// let data = "abc";
+// const tree = {
+//     abc: "sanju"
+// };
+// console.log(tree.data); //undefined
+// console.log(tree[data]); //sanju
+// console.log(tree["abc"]); //sanju
+// console.log(tree.abc); //sanju
+
