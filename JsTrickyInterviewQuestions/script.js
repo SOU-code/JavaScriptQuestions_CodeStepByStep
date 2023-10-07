@@ -571,3 +571,11 @@ because no a created locally just change value
 // }
 // fruits();
 //Output: undefined /error -> hoisting
+
+//Question -71
+for (var i = 0; i <= 3; i++){
+    setTimeout(() => {
+        console.log(i);
+    }, 1);
+}
+// Output: 4 4 4 4 //because var is global when setTime out executes the i =4
