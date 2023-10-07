@@ -613,4 +613,10 @@ because no a created locally just change value
 // let d;
 // d = c;
 // c.name = "anil";
-// console.log(d.name); //anil 
+// console.log(d.name); //anil
+
+//Question -77
+// var x;
+// var x = 10;
+// console.log(x); //10
+
