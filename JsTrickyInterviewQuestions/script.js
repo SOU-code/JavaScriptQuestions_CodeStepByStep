@@ -573,9 +573,18 @@ because no a created locally just change value
 //Output: undefined /error -> hoisting
 
 //Question -71
-for (var i = 0; i <= 3; i++){
-    setTimeout(() => {
-        console.log(i);
-    }, 1);
-}
+// for (var i = 0; i <= 3; i++){
+//     setTimeout(() => {
+//         console.log(i);
+//     }, 1);
+// }
 // Output: 4 4 4 4 //because var is global when setTime out executes the i =4
+
+//Question -72
+// for (let i = 0; i <= 3; i++){
+//     setTimeout(() => {
+//         console.log(i);
+//     }, 1);
+// }
+// Output: 0 1 2 3 //because let is scope varible and i different value for each setTimeout
+
