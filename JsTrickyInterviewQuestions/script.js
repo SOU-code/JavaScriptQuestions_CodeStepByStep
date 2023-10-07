@@ -648,3 +648,8 @@ because no a created locally just change value
 // console.log(++number); //2
 // console.log(number); //2
 
+//Question -82
+// function getAge(...args) {
+//     console.log(typeof args)
+// }
+// getAge(21);
