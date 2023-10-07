@@ -588,3 +588,9 @@ because no a created locally just change value
 // }
 // Output: 0 1 2 3 //because let is scope varible and i different value for each setTimeout
 
+//Question -73
+// console.log(+true); //Output: 1 (+ converts into number)
+// console.log(typeof +true); // number
+// console.log(+"33"); //22
+// console.log(+"df45"); //NaN
+
