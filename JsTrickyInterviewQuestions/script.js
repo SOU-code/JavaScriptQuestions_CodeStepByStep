@@ -619,4 +619,13 @@ because no a created locally just change value
 // var x;
 // var x = 10;
 // console.log(x); //10
+// let x = 20; //error: 'x' has already been declared
+
+//Question -78
+// let a = 3;
+// let b = new Number(3);
+// console.log(a == b); // true
+// console.log(a === b); //false
+// console.log(a, typeof a); //3,number
+// console.log(b, typeof b); //Number{3} ,object
 
